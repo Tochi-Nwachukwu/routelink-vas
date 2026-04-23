@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.routelinkvas.com"), // Update with the actual production domain
+  metadataBase: new URL("https://www.routelinkvas.com"),
   title: {
     default: "Routelink VAS | Nigeria's Premier VAS Platform",
     template: "%s | Routelink VAS",
