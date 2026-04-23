@@ -12,11 +12,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.routelinkvas.com"),
   title: {
-    default: "Routelink VAS | Nigeria's Premier VAS Platform",
+    default: "Routelink VAS | Nigeria's Leading VAS Platform",
     template: "%s | Routelink VAS",
   },
   description:
-    "Routelink VAS is Nigeria's largest and most reliable Value Added Services platform. We provide seamless infrastructure for Bulk SMS, USSD codes, Voice services, and Airtime/Data APIs for businesses.",
+    "Routelink VAS is Nigeria's leading Value Added Services platform. We provide seamless infrastructure for Bulk SMS, USSD codes, Voice services, and Airtime/Data APIs for businesses.",
   keywords: [
     "VAS platform Nigeria",
     "Value Added Services",
@@ -36,14 +36,15 @@ export const metadata: Metadata = {
     url: "/",
     title: "Routelink VAS | Nigeria's Premier VAS Platform",
     description:
-      "Scale your business communications with Nigeria's most robust VAS infrastructure. Bulk SMS, USSD, and more.",
+      "Scale your business communications with Nigeria's most robust VAS infrastructure.",
     siteName: "Routelink VAS",
     images: [
       {
-        url: "/images/routelinkvas-og-image.png",
+        url: "https://www.routelinkvas.com/images/routelinkvas-og-image.jpg", // Use the absolute URL
         width: 1200,
         height: 630,
         alt: "Routelink VAS Platform",
+        type: "image/jpg", // Explicitly define the MIME type
       },
     ],
   },
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     title: "Routelink VAS | Nigeria's Premier VAS Platform",
     description:
       "Scale your business communications with Nigeria's most robust VAS infrastructure.",
-    images: ["/images/routelinkvas-og-image.png"],
+    images: ["https://www.routelinkvas.com/images/routelinkvas-og-image.jpg"], // Absolute URL
   },
   robots: {
     index: true,
