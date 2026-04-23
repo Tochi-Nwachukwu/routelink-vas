@@ -6,7 +6,7 @@ import Howweworksection from "@/components/Howweworksection";
 
 export default function services() {
   return (
-    <main>
+    <main className="bg-white">
       <Servicehero />
       <Vascapabilities />
       <Howweworksection />
